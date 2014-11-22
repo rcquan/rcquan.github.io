@@ -64,7 +64,7 @@ permalink: /about/
 
 ---
 
-## Past Projects
+### Past Projects
 
 <img src="/assets/images/chr.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href="https://ryancquan.shinyapps.io/county-health-rankings/" target="_blank">County Health Rankings Map</a> <br> <small>Jul 2014 &ndash; Aug 2014</small></h5>
