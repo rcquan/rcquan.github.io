@@ -1,0 +1,30 @@
+title: Ryan Quan
+tagline: "Where public health and data science meet."
+description: "public health researcher / data enthusiast"
+baseurl: ""
+url: ""
+email: ryan.quan08@gmail.com
+twitter_username: ryancquan
+github_username:  rcquan
+linkedin_link: http://www.linkedin.com/in/ryancquan
+timezone: America/New_York
+
+markdown: kramdown
+permalink: pretty
+#excerpt_separator: <!--more-->
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
+  input: GFM
+
+#lsi: true
+
+paginate: 10
+paginate_path: "blog/p:num"
+
+
