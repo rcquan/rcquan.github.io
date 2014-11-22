@@ -1,10 +1,10 @@
 ---
 layout: post
 categories: blog
-tags: [knn, image recovery, data science]
-preview-pic: /assets/images/2014-09-26-denoising-a-png-with-knn-imputation.png
+tags: [knn, data science, image recovery, imputation]
+preview_pic: /assets/images/2014-09-26-denoising-a-png-with-knn-imputation.png
 comments: true
-title: Denoising a PNG with kNN Imputation
+title: Denoising a PNG Image with kNN Imputation
 ---
 
 Given a PNG image with noise, where noise is defined as having an RGB value equal to [0, 0, 0], we can use k-nearest neighbors imputation to fill in the zeros using nearest neighbor averaging.
