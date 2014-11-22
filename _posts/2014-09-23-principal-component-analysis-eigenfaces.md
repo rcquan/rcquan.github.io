@@ -3,6 +3,7 @@ layout: post
 categories: blog
 tags: [python, sklearn, pca, principal component analysis, eigenfaces, dimensionality reduction]
 preview_pic: /assets/images/2014-09-23-principal-component-analysis-eigenfaces.png
+comments: true
 title: Principal Component Analysis and Eigenfaces
 ---
 

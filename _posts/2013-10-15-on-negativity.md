@@ -2,6 +2,7 @@
 layout: post
 categories: blog
 tags: [musings, negativity, reflection, showerthoughts, people, life]
+comments: true
 title: On Negativity
 ---
 

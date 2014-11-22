@@ -3,6 +3,7 @@ layout: post
 categories: blog
 tags: [image compression, dimensionality reduction, PCA, eigenfaces]
 preview_pic: /assets/images/2014-10-07-image-compression-pca.png
+comments: true
 title: Image Compression with Principal Component Analysis
 ---
 
@@ -22,11 +23,13 @@ Now that we are working with a matrix, we can do some fun statistics. Grossly su
 
 We could then extend PCA to both the green and blue color spaces and stitch back individual 512 x 512 matrices into the original 3-D array.
 
-So what does this look like? How many principal components must we use to get a similar image quality to the original while still reducing the overall file size? Check out the gallery below:![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c3e4b0d289e73ef331/1412725273683/reduced_pc1_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c3e4b0d5d3278fb8c0/1412725287775/reduced_pc2_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c3e4b0d5d3278fb8c2/1412725316192/reduced_pc5_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c3e4b0d5d3278fb8c4/1412725334947/reduced_pc10_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c3e4b021140b8afa90/1412725446864/reduced_pc15_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c3e4b0d5d3278fb8c6/1412725441952/reduced_pc20_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b021140b8afa92/1412725454101/reduced_pc30_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b0d5d3278fb8c8/1412725460574/reduced_pc40_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b021140b8afa94/1412725466654/reduced_pc50_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b0d5d3278fb8ca/1412725472556/reduced_pc60_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b021140b8afa96/1412725478301/reduced_pc70_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b021140b8afa98/1412725484678/reduced_pc80_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b021140b8afa9a/1412725495751/reduced_pc90_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/543479c4e4b021140b8afa9c/1412725507164/reduced_pc100_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/54347fa5e4b03176bba43c6c/1412726710097/reduced_lenna.png)![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/54347fa0e4b0d289e73f008a/1412726723981/lenna.png)
+So what does this look like? How many principal components must we use to get a similar image quality to the original while still reducing the overall file size? Check out the gallery below:
+
+<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/08sUP/embed?background=f2f2f2&amp;text=1a1a1a&amp;link=4e76c9"></iframe>
 
 Interesting! But did we reduce the file size at all?
 
-![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/54348f32e4b0f145b0834b4d/1412730680988/#img.png)
+<img src = "/assets/images/2014-10-07-image-compression-pca-2.png" class = "halfw">
 
 Awesome! We can even see how the first few principal components captures most of the information (variability) and how the reduction in file size for subsequent components decreases - just as PCA [says it should](http://little-book-of-r-for-multivariate-analysis.readthedocs.org/en/latest/_images/image6.png)!
 

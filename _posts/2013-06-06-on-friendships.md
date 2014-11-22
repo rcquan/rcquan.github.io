@@ -2,6 +2,7 @@
 layout: post
 categories: blog
 tags: [friendships, musings, reflection, philosophy, showerthoughts]
+comments: true
 title: On Friendships
 ---
 

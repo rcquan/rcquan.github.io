@@ -2,12 +2,12 @@
 layout: post
 categories: blog
 tags: [policy, government, new york city, city council, meetings, ggplot2]
+preview_pic: /assets/images/2014-09-11-new-york-city-meetings-annual-trends.png
+comments: true
 title: Exploring New York City Council Meetings Data
 ---
 
-## Introduction to NYCC Meetings
-
-If you haven't noticed from my previous blog posts on New York City [311 complaints](http://www.ryancquan.com/blog/2014/7/16/a-data-driven-approach-to-being-an-nyc-councilmember) and [webscraping legislation](http://www.ryancquan.com/blog/2014/6/16/turn-legislation-into-beautifulsoup), I am a huge fan of using data to improve local politics and municipal policies. We often hear of data science in the context of training recommendation engines for behemoths like Amazon and Netflix, but with cities like New York [pushing for open data](http://www.nyc.gov/html/data/about.html), even a small-time data wrangler like myself can provide (hopefully) useful insights for my community.
+If you haven't noticed from my previous blog posts on New York City [311 complaints](blog/2014/07/16/a-data-driven-approach-to-being-an-nyc-councilmember) and [webscraping legislation](/blog/2014/06/16/turn-legislation-into-beautifulsoup), I am a huge fan of using data to improve local politics and municipal policies. We often hear of data science in the context of training recommendation engines for behemoths like Amazon and Netflix, but with cities like New York [pushing for open data](http://www.nyc.gov/html/data/about.html), even a small-time data wrangler like myself can provide (hopefully) useful insights for my community.
 
 So what lessons can be learned by exploring the rather inaccessible [meetings data](http://legistar.council.nyc.gov/Calendar.aspx) provided by the New York City Council Legislative Research Center? Let's dive into the data!
 
@@ -16,7 +16,9 @@ So what lessons can be learned by exploring the rather inaccessible [meetings da
 When I first started looking at the meetings data, I immediately wanted to know if there were any annual trends - how has the number of meetings held each year changed over time within [each city council committee](http://council.nyc.gov/html/committees/committees.shtml)?
 
 After a little cleaning and some fun with Hadley Wickham's 
-[dplyr package](http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) and [ggplot2 facets](http://docs.ggplot2.org/0.9.3.1/facet_wrap.html), we can generate an exploratory visualization to answer our question:![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/54128920e4b056248a9d0273/1410500897572/#img.png)
+[dplyr package](http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) and [ggplot2 facets](http://docs.ggplot2.org/0.9.3.1/facet_wrap.html), we can generate an exploratory visualization to answer our question:
+
+<img src = "/assets/images/2014-09-11-new-york-city-meetings-annual-trends.png" class = "fullw">
 
 ## Interpreting the Graph
 
@@ -43,8 +45,11 @@ Let's examine a few of the interesting features:
 
 The spike in the number of meetings held by the Committee on Standards and Ethics in 2004, however, is by far the most glaring outlier. What exactly is going on here?
 
-A little digging through the[New York Times archive](http://topics.nytimes.com/top/reference/timestopics/people/j/allan_w_jennings_jr/index.html) in 2004 for scandals reveals this little nugget of history in New York City politics:![](http://static.squarespace.com/static/535d5283e4b0b9aa73979311/539493cce4b0879e3181f243/54128976e4b09a3d9146c1cb/1410500982777/#img.png)So was this scandal responsible for the spike in our graph? A quick browse through the [meeting details on Legistar](http://legistar.council.nyc.gov/MeetingDetail.aspx?ID=73512&GUID=3A16184D-D2A9-4695-BDCF-ED07EFD7CABC&Options=info|&Search=) confirms this to be true.
+A little digging through the [New York Times archive](http://topics.nytimes.com/top/reference/timestopics/people/j/allan_w_jennings_jr/index.html) in 2004 for scandals reveals this little nugget of history in New York City politics:
 
+<img src = "/assets/images/2014-09-11-new-york-city-meetings-annual-trends.png" class = "fullw">
+
+So was this scandal responsible for the spike in our graph? A quick browse through the meeting details on Legistar confirms this to be true.
 
 ## Caveats
 

@@ -3,6 +3,7 @@ layout: post
 categories: blog
 tags: [NYC, open data, city council, policy, government, slidify]
 preview_pic: /assets/images/2014-11-16-nyc-open-data-presentation.png
+comments: true
 title: NYC Open Data Presentation
 ---
 
