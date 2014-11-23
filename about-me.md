@@ -4,8 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
+<img src = "/assets/images/profile.png" style = "width: 150px; height: 150px; margin: 20px; float:right;">
+
 <p><strong>Hi! My name is Ryan.</strong></p>
-<img align = "right" src = "/assets/images/profile.png" style = "width: 200px; height: 200px">
 <p>I am a public health researcher interested in open-science collaboration, machine learning, and data visualization. While health policy and bioinformatics questions make me tick, I find pleasure in tackling puzzles of any kind.</p>
 <p>When I'm not busy doing research, I enjoy bicycling through the city and writing blog posts on a number of topics, including workflow optimization strategies, coding tutorials, and open data projects.</p>
 <p>Come join me on a never-ending quest to clean, wrangle, and make sense of the world around us!</p>
@@ -16,7 +17,7 @@ permalink: /about/
 
 <img src="/assets/images/columbia.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href="http://www.mailman.columbia.edu/" target="_blank">Columbia University</a> <br><small>Aug 2014 &ndash; Present</small></h5>
-<p>Master's Degree, Public Health<br>Certificate in Public Health Informatics</p>
+<p>Master's Degree, Public Health</p>
 
 <img src="/assets/images/berkeley.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href="http://www.mailman.columbia.edu/" target="_blank">University of California, Berkeley</a><br> <small>Aug 2008 &ndash; Dec 2011</small></h5>
