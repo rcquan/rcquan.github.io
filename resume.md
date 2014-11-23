@@ -400,6 +400,7 @@ ol li {
 }
 .resume dl strong {
   display: block;
+  letter-spacing: -1.25px;
 }
 .resume dl em {
   display: block;
@@ -412,7 +413,7 @@ ol li {
 }
 #footer + p {
   width: 100%;
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -420,26 +421,26 @@ ol li {
    .resume body {
     padding: 2em 0;
   }
-   blockquote {
+   .resume blockquote {
     top: 0px;
     right: 40px;
     position: absolute;
   }
-  blockquote, p {
+  .resume blockquote, p {
     font-size: 15px;
-    text-decoration:none;
+    font-style:normal;
   }
-   h1 {
+   .resume h1 {
     margin-top: .5em;
   }
-   ol {
+   .resume ol {
     margin: 0 0 0 1em;
   }
-  ol li {
+  .resume ol li {
     width: 50%;
     margin: 0;
   }
-  ol li:nth-child(1),
+  .resume ol li:nth-child(1),
    ol li:nth-child(2) {
     border-top: none;
   }
@@ -541,7 +542,7 @@ ol li {
 <h3 id="education">Education</h3>
 
 <dl>
-<dt>Mailman School of Public Health, Columbia University</dt>
+<dt>Columbia University</dt>
 <dd><em>MPH, Public Health Informatics</em>
 <strong>(Expected) May 2015</strong>
 Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Visualization</dd>
@@ -561,7 +562,7 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 <dd>Using statistics to model complex decisions and uncover meaningful patterns in our society.</dd>
 </dl></li>
 <li><dl>
-<dt>Programming and Database Management</dt>
+<dt>Programming and Databases </dt>
 <dd>Optimizing the research pipeline by coding efficient query strings and mapping scripts.</dd>
 </dl></li>
 <li><dl>
@@ -577,12 +578,12 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 <ol>
 <li>R</li>
 <li>Stata</li>
+<li>Python</li>
 <li>SAS</li>
-<li>Python (pandas)</li>
-<li>mySQL, SQLite</li>
-<li>MapReduce</li>
-<li>QGIS</li>
-<li>Excel VBA</li>
+<li>MySQL, SQLite</li>
+<li>MongoDB</li>
+<li>GIS (R, QGIS)</li>
+<li>TreeAge</li>
 <li>LaTeX</li>
 </ol>
 
@@ -623,7 +624,7 @@ Founded <a href="https://www.youtube.com/watch?v=IwZm7ffNA54">state-wide high sc
 
 <dt>Undergraduate Researcher</dt>
 <dd><em>UC Berkeley, Department of Nutritional Sciences</em>
-<strong>May 2010-Jan 2012</strong></dd>
+<strong>May 2010 - Jan 2012</strong></dd>
 </dl>
 
 <hr />
