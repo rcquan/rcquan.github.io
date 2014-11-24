@@ -2,7 +2,7 @@
 layout: post
 categories: blog
 tags: [data science, coding, scraping, munging, XML]
-title: Resolving EntityRef - A Lesson in Web Scraping
+title: Resolving EntityRef - Expecting ';'
 preview_pic: /assets/images/2014-11-20-resolving-entity-ref.png
 comments: true
 ---
