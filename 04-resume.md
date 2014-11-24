@@ -534,7 +534,7 @@ ol li {
         <h1>Ryan Quan</h1>
 
 <blockquote>
-  <p><a href="/assets/documents/RyanQuan_Resume.pdf">Download PDF</a><br />
+  <p><a href="/assets/documents/RyanQuan-Resume.pdf">Download PDF</a><br />
   <a href="mailto:ryan.quan08@gmail.com">ryan.quan08@gmail.com</a></p>
 </blockquote>
 
