@@ -68,8 +68,7 @@ a:hover {
 }
 
 .site-link {
-  font-size: 20px;
-  letter-spacing: 0.75px;
+  font-size: 18px;
   color: #303030;
   webkit-transition: color 0.25s;
   transition: color 0.25s;
@@ -181,8 +180,9 @@ a:hover {
 .site-nav .menu-icon { display: none; }
 
 .site-nav .site-link {
-  margin-left: 20px;
-  font-size: 20px;
+  margin-left: 18px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 /* =========== */
