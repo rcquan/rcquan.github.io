@@ -4,7 +4,6 @@ categories: blog
 tags: [college, growth, philosophy, reflection]
 title: On College and Growth
 comments: true
-preview_pic: /assets/images/2013-05-23-on-college-and-growth.jpg
 ---
 
 I have not written for quite some time, but as a means of self-improvement, I will begin to journal my activities on a regular basis in order to track my thoughts, expand on insights, accelerate my growth, and track my progress.

@@ -4,14 +4,12 @@ categories: blog
 tags: [medical misconduct, rCharts, ggplot2]
 preview_pic: /assets/images/2014-07-09-medical-misconduct-ggplot2.png
 comments: true
-title: Medical Misconduct - Introduction & Time-Series Plots
+title: Introduction to Medical Misconduct
 ---
 
-This is part of the "Medical Misconduct" series in collaboration with [Frank Chen](http://frankchen07.github.io) in which we explore the [Professional Medical Conduct Board Actions](https://health.data.ny.gov/Health/Professional-Medical-Conduct-Board-Actions-Beginni/ebmi-8ctw) data set on [health.data.ny.gov](http://health.data.ny.gov).
+This is part of the "Medical Misconduct" series in collaboration with [Frank Chen](http://frankchen07.github.io) in which we explore the [Professional Medical Conduct Board Actions](https://health.data.ny.gov/Health/Professional-Medical-Conduct-Board-Actions-Beginni/ebmi-8ctw) data set on [health.data.ny.gov](http://health.data.ny.gov). The Professional Medical Conduct Board Actions data consist of all public actions taken against physicians, physician assistants, specialist assistants, and medical professional corporations pursuant to Section 230 of the New York State Public Health Law and Section 6530 of the New York State Education Law.
 
-## Introduction
-
-If you have ever taken a ride on an NYC subway, chances are you've seen this hilarious advertisement:
+Anyways, let's cut right to the chase. If you have ever taken a ride on an NYC subway, chances are you've seen this hilarious advertisement:
 
 <img src = "/assets/images/2014-07-09-medical-misconduct-drz.png" class = "fullw">
 

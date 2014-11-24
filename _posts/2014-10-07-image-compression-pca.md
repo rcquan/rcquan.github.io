@@ -4,12 +4,10 @@ categories: blog
 tags: [image compression, dimensionality reduction, PCA, eigenfaces]
 preview_pic: /assets/images/2014-10-07-image-compression-pca.png
 comments: true
-title: Image Compression with Principal Component Analysis
+title: Image Compression with PCA
 ---
 
-Ever wonder how various graphics software are able to reduce the file size of your image without a significant loss in quality? Welcome to the world of [image compression](http://en.wikipedia.org/wiki/Image_compression)!
-
-Expanding on a [previous post](/blog/2014/09/23/principal-component-analysis-eigenfaces/) in which I used principal component analysis (PCA) to generate so-called ["eigenfaces"](http://en.wikipedia.org/wiki/Eigenface), I will be using the infamous [Lenna](http://en.wikipedia.org/wiki/Lenna) image to demonstrate how the same technique can be used to compress images and reduce file size.
+Ever wonder how various graphics software are able to reduce the file size of your image without a significant loss in quality? Welcome to the world of [image compression](http://en.wikipedia.org/wiki/Image_compression)! Expanding on a [previous post](/blog/2014/09/23/principal-component-analysis-eigenfaces/) in which I used principal component analysis (PCA) to generate so-called ["eigenfaces"](http://en.wikipedia.org/wiki/Eigenface), I will be using the infamous [Lenna](http://en.wikipedia.org/wiki/Lenna) image to demonstrate how the same technique can be used to compress images and reduce file size.
 
 Before we dive into the demonstration, however, let's briefly go over PCA in the context of color images. As most of you know, the smallest representation of a digital image on a display is called a "pixel." PNG color images, like the ones we will be using, are typically comprised of pixels in RGB space. Here is a visual representation of one RGB pixel for more clarity:
 

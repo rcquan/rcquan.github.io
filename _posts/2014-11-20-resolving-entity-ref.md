@@ -7,7 +7,7 @@ preview_pic: /assets/images/2014-11-20-resolving-entity-ref.png
 comments: true
 ---
 
-So [Frank](http://frankchen07.github.io) and I were scraping data off the web (with permission, of course) using R's `XML` package when suddenly a wild error appeared!
+So [Frank](http://frankchen07.github.io) and I were scraping data off the web (with permission, of course) using R's `XML` package when suddenly a wild error appeared! A quick search brought up a [few](http://stackoverflow.com/questions/23422316/xml-validation-error-entityref-expecting) [StackOverflow](http://stackoverflow.com/questions/3431280/validation-failed-entityref-expecting) [posts](http://stackoverflow.com/questions/19696797/read-xml-file-using-lxml-get-error-entityref) and [blogs](http://mrrena.blogspot.com/2009/07/entityref-expecting-at-line-1.html) offering common solutions. At first glance, we thought that the URL query string was the culprit of our woes - the `xmlParse()`` function could not read the unescaped ampersands!
 
 ```
 doc <- "http://somesite.com/xml.php?Y2=2005&max=100"
@@ -15,9 +15,6 @@ xmlParse(doc)
 ```
 
 `Error: EntityRef: expecting ';'`
-
-
-A quick search brought up a [few](http://stackoverflow.com/questions/23422316/xml-validation-error-entityref-expecting) [StackOverflow](http://stackoverflow.com/questions/3431280/validation-failed-entityref-expecting) [posts](http://stackoverflow.com/questions/19696797/read-xml-file-using-lxml-get-error-entityref) and [blogs](http://mrrena.blogspot.com/2009/07/entityref-expecting-at-line-1.html) offering common solutions. At first glance, we thought that the URL query string was the culprit of our woes - the `xmlParse()`` function could not read the unescaped ampersands!
 
 However, whether we passed the URL without the escaped ampersands:
 
