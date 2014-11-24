@@ -26,7 +26,7 @@ permalink: /about/
 <h4 style="border-bottom: 1px solid #e0e0e0">Work</h4>
 
 <img src="/assets/images/columbia.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
-<h5><a href="http://mailman.columbia.edu" target="_blank">Columbia University</a> &ndash; Research Assistant</h5>
+<h5><a href="http://mailman.columbia.edu" target="_blank">Columbia University</a> &ndash; Research Associate</h5>
 <p>Health policy, bioinformatics, and nutritional science research, emphasis on statistical analysis.</p>
 
 <img src="/assets/images/nycc-logo.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
