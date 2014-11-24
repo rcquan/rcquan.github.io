@@ -592,16 +592,16 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 
 <h3 id="experience">Experience</h3>
 
+<dt>Research Associate, Muennig Lab</dt>
+<dd><em>Columbia University, Department of Health Policy</em>
+<strong>Dec 2013 - present</strong>
+Lead independent research on the health effects of altruism and multigenerational families using Stata. Conduct cost-effectiveness analysis, building Markov models and running probabilistic sensitivity analyses to cross-validate results.</dd>
+
 <dl>
 <dt>Graduate Research Assistant, Genkinger Lab</dt>
 <dd><em>Columbia University, Department of Epidemiology</em>
 <strong>Feb 2014 - present</strong>
 Lead coding for DNA methylation analysis of ovarian cancer biomarkers using machine learning algorithms and R/Bioconductor. Conduct data analysis using SAS. Write scripts using Python to optimize research and administrative tasks.</dd>
-
-<dt>Graduate Research Associate, Muennig Lab</dt>
-<dd><em>Columbia University, Department of Health Policy</em>
-<strong>Dec 2013 - present</strong>
-Lead independent research on the health effects of altruism and multigenerational families using Stata. Conduct cost-effectiveness analysis, building Markov models and running probabilistic sensitivity analyses to cross-validate results.</dd>
 
 <dt>Policy and Data Analyst</dt>
 <dd><em>New York City Council</em>
