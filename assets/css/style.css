@@ -7,8 +7,39 @@
 }
 @font-face {
   font-family: open-sans;
-  src: url('fonts/OpenSans-Regular.ttf') format('opentype');
+  src: url('fonts/OpenSans-Light.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+@font-face {
+  font-family: open-sans;
+  src: url('fonts/OpenSans-Regular.ttf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: open-sans;
+  src: url('fonts/OpenSans-LightItalic.ttf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+/*
+@font-face {
+  font-family: open-sans;
+  src: url('fonts/OpenSans-Regular.ttf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: open-sans;
+  src: url('fonts/OpenSans-BoldItalic.ttf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+*/
+
+
 
 * {
   margin: 0;
@@ -19,10 +50,12 @@ html, body { height: 100%; }
 
 body {
   font-family: open-sans, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
-/*  font-weight: 0;
-*/  background-color: white;
+  font-weight: 400;
+/*  letter-spacing: -0.25px;*/
+  background-color: white;
+
 }
 
 /* link color and decoration*/
@@ -35,7 +68,7 @@ a:hover {
 }
 
 .site-link {
-  font-size: 18px;
+  font-size: 20px;
   color: #303030;
   webkit-transition: color 0.25s;
   transition: color 0.25s;
@@ -95,8 +128,8 @@ a:hover {
 
 .site-title {
   font-family: rockwell;
-  letter-spacing: -0.5px;
-}
+/*  letter-spacing: -0.5px;
+*/}
 .site-header .site-title {
   font-size: 28px;
   line-height: 65px;
@@ -168,8 +201,8 @@ a:hover {
 .footer-heading {
   font-size: 18px;
   font-weight: 300;
-/*  letter-spacing: -.5px;
-*/  margin-bottom: 15px;
+  letter-spacing: -.5px;
+  margin-bottom: 15px;
 }
 
 .footer-top {
@@ -236,9 +269,9 @@ a:hover {
 }
 
 .post-title {
-  font-size: 20px;
-/*  letter-spacing: -0.5px;
-*/  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 
 
@@ -251,8 +284,8 @@ a:hover {
 
 header h1 {
   font-size: 36px;
-/*  letter-spacing: -0px;
-*/  font-weight: 300;
+  letter-spacing: -1px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -268,42 +301,42 @@ header h1 {
 .post-content h5,
 .post-content h6 {
   line-height: 1;
-  font-weight: 300;
+  font-weight: bold;
   margin: 40px 0 20px;
 }
 
 .post-content h2 {
   font-size: 32px;
-/*  letter-spacing: -1.25px;
-*/}
+  letter-spacing: -1.25px;
+}
 
 .post-content h3 {
   font-size: 28px;
-/*  letter-spacing: -1.125px;
-*/}
+  letter-spacing: -1.125px;
+}
 
 .post-content h4 {
   font-size: 24px;
-/*  letter-spacing: -1px;
-*/}
+  letter-spacing: -1px;
+}
 
 .post-content h5 {
   font-size: 20px;
-/*  letter-spacing: -0.875px;
-*/}
+  letter-spacing: -0.875px;
+}
 
 .post-content h6 {
   font-size: 16px;
-/*  letter-spacing: -0.75px;
-*/}
+  letter-spacing: -0.75px;
+}
 
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 20px;
   font-size: 18px;
   opacity: .6;
-/*  letter-spacing: -1px;
-*/  font-style: italic;
+  letter-spacing: -1px;
+  font-style: italic;
   margin: 30px 0;
 }
 
