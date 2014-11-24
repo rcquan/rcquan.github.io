@@ -17,7 +17,7 @@ A contribution to [Daniel Chen's](http://chendaniely.github.io/) interactive plo
 
 <img src="/assets/images/nyc-open-data.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href="http://housingcourt.weebly.com/" target="_blank">NYC Open Data</a></h5>
-Using [NYC Open Data](https://nycopendata.socrata.com/) to [map](https://ryancquan.cartodb.com/viz/0402041a-2189-11e4-bae6-0e73339ffa50/public_map) district and city-wide issues and produce [statistical reports](/2014/07/16/a-data-driven-approach-to-being-an-nyc-councilmember/) to inform government action. Check out the [presentation slides](http://ryancquan.com/open-data-presentation/#1) and [Plot.ly visualization](https://plot.ly/~rcquan/0). 
+Using [NYC Open Data](https://nycopendata.socrata.com/) to [map](https://ryancquan.cartodb.com/viz/0402041a-2189-11e4-bae6-0e73339ffa50/public_map) district and city-wide issues and produce [statistical reports](/assets/documents/2014-07-16-improving-local-government-with-open-data.html) to inform government action. Check out the [presentation slides](http://ryancquan.com/open-data-presentation/#1) and [Plot.ly visualization](https://plot.ly/~rcquan/0). 
 
 <img src="/assets/images/columbia.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href = "https://github.com/rcquan/bedgraph2dmr">DNA Methylation Analysis</a></h5>
