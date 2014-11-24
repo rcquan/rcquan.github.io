@@ -69,6 +69,7 @@ a:hover {
 
 .site-link {
   font-size: 20px;
+  letter-spacing: 0.75px;
   color: #303030;
   webkit-transition: color 0.25s;
   transition: color 0.25s;
