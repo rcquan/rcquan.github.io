@@ -19,7 +19,7 @@ permalink: /about/
 <h5><a href="http://www.mailman.columbia.edu/" target="_blank">Columbia University</a></h5>
 <p>Master's Degree, Public Health Informatics</p>
 
-<img src="/assets/images/berkeley.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
+<img src="/assets/images/berkeley.jpeg" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href="http://www.mailman.columbia.edu/" target="_blank">UC Berkeley</a></h5>
 <p>Bachelor's Degree, Microbial Biology </p>
 
