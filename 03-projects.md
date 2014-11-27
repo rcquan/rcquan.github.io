@@ -19,19 +19,19 @@ A contribution to [Daniel Chen's](http://chendaniely.github.io/) interactive plo
 <h5><a href="http://housingcourt.weebly.com/" target="_blank">NYC Open Data</a></h5>
 Using [NYC Open Data](https://nycopendata.socrata.com/) to [map](https://ryancquan.cartodb.com/viz/0402041a-2189-11e4-bae6-0e73339ffa50/public_map) district and city-wide issues and produce [statistical reports](/assets/documents/2014-07-16-improving-local-government-with-open-data.html) to inform government action. Check out the [presentation slides](http://ryancquan.com/open-data-presentation/#1) and [Plot.ly visualization](https://plot.ly/~rcquan/0). 
 
-<img src="/assets/images/columbia.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
+<img src="/assets/images/columbia.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href = "https://github.com/rcquan/bedgraph2dmr">DNA Methylation Analysis</a></h5>
 Epigenetic research analyzing capture bisulfite sequencing data to identify differentially methylated regions. Focus on ovarian and breast cancer. Sample R code available on [GitHub](http://github.com/rcquan/bedgraph2dmr).
 
-<img src="/assets/images/columbia.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
+<img src="/assets/images/columbia.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5>Multigenerational Households</h5>
 A survival analysis using data from the [General Social Survey](http://www3.norc.org/gss%2Bwebsite/) to investigate the effects of multigenerational households on mortality risk. Manuscript currently under review. Sample Stata code available on [GitHub](https://gist.github.com/rcquan/ce6a2f959366142a19aa).
 
-<img src="/assets/images/columbia.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
+<img src="/assets/images/columbia.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5>Childhood Obesity and the Environment</h5>
 An analysis of prenatal environmental exposures and food frequency data and their effect on childhood obesity. Sample SAS code available on [GitHub](https://gist.github.com/rcquan/c51e386dec9a7a2faa06).
 
-<img src="/assets/images/jr.png" width = "60" height = "60" align = "left" style = "margin: 0px 20px 0px 0px">
+<img src="/assets/images/jr.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href = "https://soundcloud.com/ryancquan/sets/jr-podcast" target="_blank">JR Podcast</a></h5>
 A slice-of-life podcast documenting the long-distance friendship of two college friends and their philosophical musings. Check out the [first episode](https://soundcloud.com/ryancquan/sets/jr-podcast)!
 
