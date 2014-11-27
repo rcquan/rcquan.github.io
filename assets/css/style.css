@@ -49,7 +49,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: open-sans, Helvetica, sans-serif;
+  font-family: open-sans, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -127,7 +127,7 @@ a:hover {
 
 
 .site-title {
-  font-family: rockwell;
+  font-family: rockwell, Helvetica, Arial;
 /*  letter-spacing: -0.5px;
 */}
 .site-header .site-title {
