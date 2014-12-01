@@ -11,7 +11,7 @@ This is part of the "Medical Misconduct" series in collaboration with [Frank Che
 
 Anyways, let's cut right to the chase. If you have ever taken a ride on an NYC subway, chances are you've seen this hilarious advertisement:
 
-<img src = "/assets/images/2014-07-09-medical-misconduct-drz.png" class = "fullw">
+<img src = "/assets/images/2014-07-09-medical-misconduct-drz.jpeg" class = "fullw">
 
 As funny as this may be, did you know that the New York State Department of Health has taken disciplinary action against Dr. Zizmor... twice?
 
