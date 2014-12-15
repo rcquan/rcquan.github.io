@@ -9,7 +9,7 @@ permalink: /projects/
 
 <img src="/assets/images/fryandata-logo.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href="http://github.com/fryandata" target="_blank">FryanData</a></h5>
-A collaboration with [Frank Chen](http://frankchen07.github.io) where snippets of data science, programming, and public health come together to share a meal. Check out our series on [physician misconduct](/blog/2014/07/09/medical-misconduct/), MDMA data, electronic health records, and more at our [GitHub repo](http://www.github.com/fryandata).
+A collaboration with [Frank Chen](http://frankchen07.github.io) where snippets of data science, programming, and public health come together to share a meal. Check out our series on [physician misconduct](/blog/2014/07/09/medical-misconduct/), [MDMA data](http://fryandata.github.io/ecstasy-qmssviz-slides/), electronic health records, and more at our [GitHub repo](http://www.github.com/fryandata).
 
 <img src="/assets/images/ebola.png" width = "50" height = "50" align = "left" style = "margin: 0px 20px 0px 0px">
 <h5><a href="https://ryancquan.shinyapps.io/shinyCountryTimeseries/" target="_blank">Visualizing Ebola</a></h5>
