@@ -560,7 +560,7 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 <ul>
 <li><dl>
 <dt>Data Analysis and Visualization</dt>
-<dd>Using statistics to model complex decisions and uncover meaningful patterns in our society.</dd>
+<dd>Implementing machine learning to model complex data and uncover meaningful patterns in our society.</dd>
 </dl></li>
 <li><dl>
 <dt>Programming and Databases </dt>
@@ -568,7 +568,7 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 </dl></li>
 <li><dl>
 <dt>Multidisciplinary Research</dt>
-<dd>Bridging background in biology and finance to tackle questions ranging from health policy to the human microbiome.</dd>
+<dd>Bridging background in biology and finance to tackle questions ranging from health policy to the human genome.</dd>
 </dl></li>
 </ul>
 
@@ -583,7 +583,7 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 <li>SAS</li>
 <li>MySQL, SQLite</li>
 <li>MongoDB</li>
-<li>GIS (R, QGIS)</li>
+<li>ArcGIS, QGIS</li>
 <li>TreeAge</li>
 <li>LaTeX</li>
 </ol>
@@ -597,23 +597,23 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 <dt>Research Associate, Muennig Lab</dt>
 <dd><em>Columbia University, Department of Health Policy</em>
 <strong>Dec 2013 - present</strong>
-Lead independent research on the health effects of altruism and multigenerational families using Stata. Conduct cost-effectiveness analysis, building Markov models and running probabilistic sensitivity analyses to cross-validate results.</dd>
+Direct research on the health effects of altruism and multi-generational families. Run robust regression and cost-effectiveness models on high-performance computing cluster to validate the Oregon Health Insurance Experiment.</dd>
 
 
 <dt>Graduate Research Assistant, Genkinger Lab</dt>
 <dd><em>Columbia University, Department of Epidemiology</em>
 <strong>Feb 2014 - present</strong>
-Lead coding for DNA methylation analysis of ovarian cancer biomarkers using machine learning algorithms and R/Bioconductor. Conduct data analysis using SAS. Write scripts using Python to optimize research and administrative tasks.</dd>
+Lead R programming for methylation analysis of next-generation sequencing data. Conduct literature reviews and SAS analyses for obesity and cancer research, emphasis in epigenetics, metabolomics, and the microbiome. Write IRB protocols.</dd>
 
 <dt>Policy and Data Analyst</dt>
 <dd><em>New York City Council</em>
 <strong>Jan 2014 - Aug 2014</strong>
-Coordinated cost-effectiveness research crucial to the introduction of new legislation <a href="http://legistar.council.nyc.gov/Legislation.aspx">Intro 0214-2014</a>. Managed database API of over 25,000 voters. Developed statistical reports using QGIS and Python to improve operations and inform policy.</dd>
+Coordinated cost-effectiveness research essential to the introduction of new legislation (<a href="http://legistar.council.nyc.gov/Legislation.aspx">Intro 0214-2014</a>). Managed database of over 25,000 voters. Applied supervised machine learning to optimize messaging campaigns. Developed front-facing web application using NationBuilder API. Automated statistical and GIS reports to improve operations and inform policy.</dd>
 
 <dt>Administrator</dt>
 <dd><em>P&amp;T Wealth Management</em>
 <strong>Apr 2013 - Aug 2013</strong>
-Leveraged Salesforce.com CRM to identify opportunities, needs, and gaps using SOQL. Cleaned redundancies in database to optimize queries. Led organization of seminars and events averaging 100+ attendees.</dd>
+Leveraged Salesforce.com CRM to identify opportunities, needs, and gaps. Cleaned redundancies in database to optimize SQL queries. Led organization of seminars and events averaging 100+ attendees.</dd>
 
 <dt>Director of Program Development</dt>
 <dd><em>Asian American Center of Santa Clara County</em>
@@ -627,7 +627,8 @@ Founded <a href="https://www.youtube.com/watch?v=IwZm7ffNA54">state-wide high sc
 
 <dt>Undergraduate Researcher</dt>
 <dd><em>UC Berkeley, Department of Nutritional Sciences</em>
-<strong>May 2010 - Jan 2012</strong></dd>
+<strong>May 2010 - Jan 2012</strong>
+Conducted wet lab experiments to elucidate the relationship between brown adipose tissue and obesity.</dd>
 </dl>
 
 <hr />
