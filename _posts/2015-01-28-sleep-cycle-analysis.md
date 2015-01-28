@@ -3,7 +3,7 @@ layout: post
 categories: blog
 tags: [data science, coding, R, sleep cycle, quantified self]
 title: Sleep Data Analysis with R
-preview_pic: /assets/images/2015-11-20-resolving-entity-ref.png
+preview_pic: /assets/images/2015-01-28-sleep-cycle-analysis-03.png
 comments: true
 ---
 
