@@ -534,8 +534,7 @@ ol li {
         <h1>Ryan Quan</h1>
 
 <blockquote>
-  <p><a href="/assets/documents/RyanQuan-Resume.pdf">Download PDF</a><br />
-  <a href="mailto:ryan.quan08@gmail.com">ryan.quan08@gmail.com</a></p>
+  <p><a href="/assets/documents/RyanQuan-Resume.pdf">Download PDF</a></p>
 </blockquote>
 
 <hr />
@@ -635,7 +634,7 @@ Conducted wet lab experiments to elucidate the relationship between brown adipos
 
 <h3 id="footer">Footer</h3>
 
-<p>Ryan Quan &#124; <a href="mailto:ryan.quan08@gmail.com">ryan.quan08@gmail.com</a></p>
+<p>Ryan Quan &#124; <a href="https://ryancquan.com">ryancquan.com</a></p>
 
 <hr />
 
