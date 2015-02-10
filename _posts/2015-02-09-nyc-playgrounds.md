@@ -65,7 +65,7 @@ Excluding the neighborhoods that are located near park areas, perhaps this list 
 
 ### Resources
 
-As there are many more questions to explore, I encourage you to explore the data on your own. To get you started, I published a [GitHub repo](https://github.com/rcquan/nyc-playgrounds) with all the public datasets and scripts needed to replicate the charts above (and then some). You can also download the datasets piecemeal via the links below:
+As there are many more questions to explore, I encourage you to check out the data for yourself. To get you started, I published a [GitHub repo](https://github.com/rcquan/nyc-playgrounds) with all the public datasets and scripts needed to replicate the charts above (and then some). You can also download the datasets piecemeal via the links below:
 
 **NYC Planning**
 
