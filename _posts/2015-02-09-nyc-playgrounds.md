@@ -28,7 +28,7 @@ That led me to this map of the city:
 
 If the distribution of playgrounds in NYC were based on the population of children, we expect the playground metric used above to have minimum variation. Graphically speaking, the shade of green should be fairly uniform across neighborhoods. However, from this map, we can that there are clear clusters of neighborhoods with high and low playground densities.
 
-One caveat to keep in mind though: regions with little to no residents, such as parks and cemetery spaces, were not included in the calculation and appear on the map as gray areas. As such, a neighborhood's proximity to a park may affect the interpretation of the results. For example, let's say neighborhoods around Central Park have relatively low numbers of playgrounds per children. However, given the copious amount of playgrounds located within the nearby super-park, I wouldn't be so quick to call these neighborhoods "playground deserts." 
+Note that there are a few caveats to keep in mind. For one, NTAs are aggregations of population estimates at the census tract level. I do not take into account margin of errors here. Second, regions with little to no residents, such as parks and cemetery spaces, were not included in the calculations and appear on the map as gray areas. As such, a neighborhood's proximity to a park may affect the interpretation of the results. For example, let's say neighborhoods around Central Park have relatively low numbers of playgrounds per children. However, given the copious amount of playgrounds located within the nearby super-park, I wouldn't be so quick to call these neighborhoods "playground deserts." 
 
 ### Median Household Income
 
