@@ -369,6 +369,11 @@ ul dl dt {
   width: 84%;
   display: inline-block;
 }
+
+.wrap {
+  max-width: 900px;
+}
+
 ol li {
   margin: 0 0 0 1em;
   padding: 0;
@@ -542,10 +547,10 @@ ol li {
 <h3 id="education">Education</h3>
 
 <dl>
-<dt>Columbia University</dt>
+<dt>Mailman School of Public Health, Columbia University</dt>
 <dd><em>MPH, Public Health Informatics</em>
-<strong>(Expected) May 2015</strong>
-Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Visualization</dd>
+<strong>May 2015</strong>
+Relevant Coursework: Data Mining, Data Visualization, Methods in Biomedical Informatics</dd>
 
 <dt>University of California, Berkeley</dt>
 <dd><em>B.S., Microbial Biology</em>
@@ -558,16 +563,16 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 
 <ul>
 <li><dl>
-<dt>Data Analysis and Visualization</dt>
-<dd>Implementing machine learning to model complex data and uncover meaningful patterns in our society.</dd>
+<dt>Predictive Analytics</dt>
+<dd>Leveraging computational statistics and machine learning to extract information from data, build useful models, and drive better decisions.</dd>
 </dl></li>
 <li><dl>
-<dt>Programming and Databases </dt>
-<dd>Optimizing the research pipeline by coding efficient query strings and mapping scripts.</dd>
+<dt>Health Domain Knowledge</dt>
+<dd>Experience in analyzing large, unstructured datasets from insurance claims, electronic health records, genomics, and health policy experiments.</dd>
 </dl></li>
 <li><dl>
-<dt>Multidisciplinary Research</dt>
-<dd>Bridging background in biology and finance to tackle questions ranging from health policy to the human genome.</dd>
+<dt>Data Storytelling</dt>
+<dd>Transforming raw numbers into narrative visualizations that communicate technical ideas and insights to non-technical audiences.</dd>
 </dl></li>
 </ul>
 
@@ -576,15 +581,12 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 <h3 id="technical">Technical</h3>
 
 <ol>
-<li>R</li>
-<li>Stata</li>
-<li>Python</li>
-<li>SAS</li>
-<li>MySQL, SQLite</li>
-<li>MongoDB</li>
-<li>ArcGIS, QGIS</li>
-<li>TreeAge</li>
-<li>LaTeX</li>
+<li><em>Languages:</em> R, Python, SAS, SQL</li>
+<li><em>ML Packages:</em> caret, scikit-learn</li>
+<li><em>Databases:</em> PostgreSQL, MongoDB</li>
+<li><em>Version Control:</em> git</li>
+<li><em>Programs:</em> Excel, ArcGIS, Treeage</li>
+<li><em>Visualization:</em> ggplot2, seaborn, D3.js</li>
 </ol>
 
 <hr />
@@ -592,54 +594,51 @@ Relevant Coursework: Computing with SAS, Decision Analysis, Data Mining, Data Vi
 <h3 id="experience">Experience</h3>
 
 <dl>
+<dt>Data Scientist Intern</dt>
+<dd><em>Omada Health - San Francisco, CA</em>
+<strong>June 2015 - present</strong></dd>
 
-<dt>Research Associate, Muennig Lab</dt>
-<dd><em>Columbia University, Department of Health Policy</em>
-<strong>Dec 2013 - present</strong>
-Direct research on the health effects of altruism and multi-generational families. Run robust regression and cost-effectiveness models on high-performance computing cluster to validate the Oregon Health Insurance Experiment.</dd>
+<dt>Research Associate</dt>
+<dd><em>Columbia University, Dept. of Health Policy - New York, NY</em>
+<strong>Dec 2013 - May 2015</strong>
+Coordinated statistical analyses of health policy studies in conjunction with stakeholders from NYC Department of Health and the US Census Bureau. Ran robust regression and cost-effectiveness models on high-performance computing cluster to validate a state-level health insurance study.</dd>
 
-
-<dt>Graduate Research Assistant, Genkinger Lab</dt>
-<dd><em>Columbia University, Department of Epidemiology</em>
-<strong>Feb 2014 - present</strong>
-Lead R programming for methylation analysis of next-generation sequencing data. Conduct literature reviews and SAS analyses for obesity and cancer research, emphasis in epigenetics, metabolomics, and the microbiome. Write IRB protocols.</dd>
+<dt>Graduate Research Assistant</dt>
+<dd><em>Columbia University, Dept. of Epidemiology - New York, NY</em>
+<strong>Feb 2014 - May 2015</strong>
+Led R programming unit. Developed interactive R programs to optimize cleaning and analysis of high-throughput epigenomics data. Ran regression analyses of experimental and observational studies relating to obesity and cancer.</dd>
 
 <dt>Policy and Data Analyst</dt>
-<dd><em>New York City Council</em>
+<dd><em>City Council - New York, NY</em>
 <strong>Jan 2014 - Aug 2014</strong>
-Coordinated cost-effectiveness research essential to the introduction of new legislation (<a href="http://legistar.council.nyc.gov/Legislation.aspx">Intro 0214-2014</a>). Managed database of over 25,000 voters. Applied supervised machine learning to optimize messaging campaigns. Developed front-facing web application using NationBuilder API. Automated statistical and GIS reports to improve operations and inform policy.</dd>
+Directed cost-effectiveness research essential to the introduction of new legislation (Intro 0214-2014). Managed database of over 25,000 voters. Applied supervised machine learning to optimize messaging campaigns. Developed front-facing web application using NationBuilder API. Automated statistical and GIS reports to improve operations and inform policy.</dd>
 
 <dt>Administrator</dt>
-<dd><em>P&amp;T Wealth Management</em>
+<dd><em>P&amp;T Wealth Management - Cupertino, CA</em>
 <strong>Apr 2013 - Aug 2013</strong>
-Leveraged Salesforce.com CRM to identify opportunities, needs, and gaps. Cleaned redundancies in database to optimize SQL queries. Led organization of seminars and events averaging 100+ attendees.</dd>
+Leveraged Salesforce.com CRM to identify opportunities, needs, and gaps for health providers. Cleaned redundancies in database to optimize SQL queries. Led organization of seminars and events averaging 100+ attendees.</dd>
 
 <dt>Director of Program Development</dt>
-<dd><em>Asian American Center of Santa Clara County</em>
+<dd><em>Asian American Center - San Jose, CA</em>
 <strong>Sep 2012 - Apr 2013</strong>
-Designed Affordable Care Act curriculum for low-income immigrant population. Created program evaluation framework to assess effectiveness of intervention. Organized <a href="/assets/images/community-health-flyer.jpg">community health fair</a> for over 200 attendees.</dd>
+Designed Affordable Care Act curriculum for low-income immigrant population. Created program evaluation framework to assess effectiveness of intervention. Organized community health event for 200+ attendees.</dd>
 
 <dt>Founder and Chairman</dt>
-<dd><em>VISION High School Outreach</em>
+<dd><em>VISION High School Outreach - Berkeley, CA</em>
 <strong>Jan 2012 - present</strong>
-Founded <a href="https://www.youtube.com/watch?v=IwZm7ffNA54">state-wide high school outreach program</a> to address issues in culture and higher education. Created and manage annual scholarship fund for Vietnamese high school students totaling $20,000+.</dd>
-
-<dt>Undergraduate Researcher</dt>
-<dd><em>UC Berkeley, Department of Nutritional Sciences</em>
-<strong>May 2010 - Jan 2012</strong>
-Conducted wet lab experiments to elucidate the relationship between brown adipose tissue and obesity.</dd>
+Founded state-wide high school program to address issues in culture and higher education. Created and manage annual scholarship fund for Vietnamese high school students totaling $20,000+.</dd>
 </dl>
 
 <hr />
 
 <h3 id="footer">Footer</h3>
 
-<p>Ryan Quan &#124; <a href="https://ryancquan.com">ryancquan.com</a></p>
+<p>Ryan Quan &#8212; <a href="mailto:ryan.quan08@gmail.com">ryan.quan08@gmail.com</a> &#8212; <a href="www.ryancquan.com">www.ryancquan.com</a></p>
 
 <hr />
 
     </div>
 </div>
+
 </body>
-</article>
 </html>
