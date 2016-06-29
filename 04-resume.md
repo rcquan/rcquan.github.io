@@ -594,7 +594,7 @@ Relevant Coursework: Data Mining, Data Visualization, Methods in Biomedical Info
 <h3 id="experience">Experience</h3>
 
 <dl>
-<dt>Data Scientist Intern</dt>
+<dt>Data Scientist</dt>
 <dd><em>Omada Health - San Francisco, CA</em>
 <strong>June 2015 - present</strong></dd>
 
