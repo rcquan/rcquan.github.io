@@ -75,19 +75,19 @@ Customer, executive, and technical communication, project management, data journ
 
 ## Whitepapers
 
-- Omada Insights Lab
-- How Changing Mindsets Can Change Health Outcomes
-- Omada's Journey with AI
+- [Omada Insights Lab](https://resourcecenter.omadahealth.com/white-papers/omada-insights-lab-whitepaper)
+- [How Changing Mindsets Can Change Health Outcomes](https://resourcecenter.omadahealth.com/white-papers/how-changing-mindsets-can-change-health-outcomes)
+- [Omada's Journey with AI](https://resourcecenter.omadahealth.com/omada-resources/omada-healths-journey-with-artificial-intelligence)
 
 ## Talks
 
-- Power of Data Science and Innovation in Care Delivery
-- Power of Mindset as a Key Predictor in Behavior Change
+- [Power of Data Science and Innovation in Care Delivery](https://www.omadahealth.com/insights-lab-webinar-2)
+- [Power of Mindset as a Key Predictor in Behavior Change](https://resourcecenter.omadahealth.com/webinars-events/the-power-of-mindset-as-a-key-predictor-of-lasting-behavior-change)
 
 ## Press
 
-- Apps, devices not enough to manage chronic care (Fierce Healthcare)
-- Omada launches the Insights Lab (Tech Crunch)
+- [Apps, devices not enough to manage chronic care](https://www.fiercehealthcare.com/digital-health/omada-health-apps-devices-not-enough-for-chronic-care-management-without-provider) (Fierce Healthcare)
+- [Omada launches the Insights Lab](https://techcrunch.com/2021/04/08/omada-health-launches-the-omada-insights-lab-to-help-improve-healthcare-outcomes-across-the-board/) (Tech Crunch)
 
 </aside>
 </div>
