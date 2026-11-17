@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-active: projects
+sitemap: false
 permalink: /projects/
 ---
 

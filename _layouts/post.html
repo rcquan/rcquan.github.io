@@ -1,18 +1,22 @@
 ---
 layout: default
 ---
-
+<p class="archive-note">An old post from my earlier blogging days. <a href="/archive/">More from the archive</a>.</p>
+<script>
+  window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']], processEscapes: true }, options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 <div class="post">
 
   <header class="post-header">
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
       <div class="post-date">
-        <i class="fa fa-calendar-o"></i>
+        
         {{ page.date | date: '%Y-%m-%d' }}
       </div>
       <div class="post-tags">
-        <i class="fa fa-tags"></i>
+        
         {% for tag in page.tags %}
           <span> {{tag}}</span>
         {% endfor %}
