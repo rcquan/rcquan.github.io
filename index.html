@@ -1,54 +1,16 @@
 ---
 layout: default
+title: Ryan Quan
+body_class: home
 ---
 
-<div class="previews">
-  {% for post in paginator.posts %}
-  <div class="preview">
+<section class="splash">
+  <h1>Hi, I'm <span class="scribble">Ryan</span></h1>
 
-    <h1 class="post-title">
-      <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-    </h1>
-
-    <div class="preview-content">
-      <div class="preview-excerpt">
-        <div class="post-meta">
-          <div class="post-date">
-            <i class="fa fa-calendar-o"></i>   {{ post.date | date: '%Y-%m-%d' }}
-          </div>
-          <div class="post-tags">
-            <i class="fa fa-tags"></i>
-            {% for tag in post.tags %}
-              <span>{{tag}}</span>
-            {% endfor %}
-          </div>
-        </div>
-        {{ post.excerpt }}
-        <a class="post-link" href="{{ post.url }}">Read More &raquo;</a>
-      </div>
-      {% if post.preview_pic %}
-        <div class="preview-pic">
-          <a href="{{ post.url }}">
-            <img style="margin:auto" src="{{ post.preview_pic }}">
-          </a>
-        </div>
-      {% endif %}
-    </div>
-
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="nav-link" href="/blog/p{{ paginator.next_page }}/">&#8592; previous</a>
-  {% endif %}
-  <a class="nav-link" href="#top">&#8593;</a>
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="nav-link" href="/">next &#8594;</a>
-    {% else %}
-      <a class="nav-link" href="/blog/p{{paginator.previous_page}}/">next &#8594;</a>
-    {% endif %}
-  {% endif %}
-</div>
+  <nav class="links" aria-label="Explore">
+    <a href="/blyg"><span class="name">Blyg</span><span class="note">Inherited Priors</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+    <a href="/games/"><span class="name">Party Games</span><span class="note">MindMeld is live</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+    <a href="/about/"><span class="name">About</span><span class="note">me, in brief</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+    <a href="/resume/"><span class="name">Resume</span><span class="note">the serious stuff</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+  </nav>
+</section>

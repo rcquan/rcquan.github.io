@@ -1,23 +1,20 @@
 ---
 layout: page
-title: Archive 
-active: archive
+title: Archive
 permalink: /archive/
 ---
 
+<p class="lede">From my earlier blogging days (2013&ndash;2015): public health, data science, and a lot of curiosity. Some of it is dated, but I'm keeping it up.</p>
+
 {% assign years = "2015,2014,2013" | split: "," %}
 {% for year in years %}
-  <h3 style="border-bottom: 1px solid #e0e0e0">{{ year }}</h3>
-  <ul style="margin-left: 0px; padding-left: 0px; list-style: none">
-    {% for post in site.posts %}
-      {% assign post_year = post.date | date: "%Y" %}
-      {% if post_year == year %}
-        <li style="padding-bottom:10px;">
-          <span style = "float: left; width: 55px;" class="post-meta">{{ post.date | date: "%d %b" }}</span>
-          <a style = "font-size: 18px; font-weight:normal; line-height: 1.75" class="post-link post-title" href="{{ post.url }}"> &nbsp; {{ post.title }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+<h2>{{ year }}</h2>
+<ul class="archive-list">
+  {% for post in site.posts %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year == year %}
+    <li><span class="post-meta">{{ post.date | date: "%d %b" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
 {% endfor %}
-
