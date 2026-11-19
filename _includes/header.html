@@ -1,11 +1,9 @@
 <header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="/">Ryan Quan</a>
-    <nav class="site-nav" aria-label="Main">
-      <a href="/about/"{% if page.url == "/about/" %} class="active" aria-current="page"{% endif %}>About</a>
-      <a href="/blyg">Blyg</a>
-      <a href="/games/"{% if page.url == "/games/" %} class="active" aria-current="page"{% endif %}>Games</a>
-      <a href="/resume/"{% if page.url == "/resume/" %} class="active" aria-current="page"{% endif %}>Resume</a>
-    </nav>
-  </div>
+  <a class="brand" href="{{ '/' | relative_url }}">dancingmathguy</a>
+  <nav class="site-nav" aria-label="Main">
+    <a href="{{ '/about/' | relative_url }}"{% if page.url == "/about/" %} class="active" aria-current="page"{% endif %}>About</a>
+    <a href="{{ '/blyg' | relative_url }}">Blyg</a>
+    <a href="{{ '/games/' | relative_url }}"{% if page.url == "/games/" %} class="active" aria-current="page"{% endif %}>Games</a>
+    <a href="{{ '/resume/' | relative_url }}"{% if page.url == "/resume/" %} class="active" aria-current="page"{% endif %}>Resume</a>
+  </nav>
 </header>

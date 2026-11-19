@@ -2,7 +2,6 @@
 layout: post
 categories: blog
 tags: [opinion, philosophy, millennial]
-comments: true
 title: On the Millennial Generation
 ---
 

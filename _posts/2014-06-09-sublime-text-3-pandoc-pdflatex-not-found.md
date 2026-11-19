@@ -2,7 +2,6 @@
 layout: post
 categories: blog
 tags: [fixes, sublime, pandoc, latex, html, pdflatex, MacTeX]
-comments: true
 title: 'Sublime Text 3: Pandoc: pdflatex not found'
 ---
 

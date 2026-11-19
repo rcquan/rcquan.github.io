@@ -1,10 +1,9 @@
 <footer class="site-footer">
-  <div class="wrap">
-    <p>
-      <a href="https://www.linkedin.com/in/ryancquan">LinkedIn</a> ·
-      <a href="https://www.instagram.com/dancingmathguy">Instagram</a> ·
-      <span>ryan.quan08 at gmail dot com</span>
-    </p>
-    <p class="fine">&copy; {{ site.time | date: "%Y" }} Ryan Quan · <a href="/archive/">Old blog archive (2013&ndash;15)</a></p>
-  </div>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/ryancquan">LinkedIn</a></li>
+    <li><a href="https://www.instagram.com/dancingmathguy">Instagram</a></li>
+    <li><a href="{{ '/archive/' | relative_url }}">Old blog archive, 2013&ndash;15</a></li>
+  </ul>
+  <p class="mono">ryan.quan08 [at] gmail [dot] com</p>
+  <p>&copy; {{ site.time | date: "%Y" }} Ryan Quan</p>
 </footer>

@@ -2,7 +2,6 @@
 layout: post
 categories: blog
 tags: [purpose, existentialism, philosophy, people, showerthoughts, musings]
-comments: true
 title: On Purpose
 ---
 

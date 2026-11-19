@@ -2,7 +2,6 @@
 layout: post
 categories: blog
 tags: [public transportation, musings, reflection, showerthoughts]
-comments: true
 title: On Public Transportation & People
 ---
 

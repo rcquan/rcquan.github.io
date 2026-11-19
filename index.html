@@ -4,13 +4,21 @@ title: Ryan Quan
 body_class: home
 ---
 
-<section class="splash">
-  <h1>Hi, I'm <span class="scribble">Ryan</span></h1>
+<div class="grid">
+  <section class="cell hero" aria-labelledby="hi">
+    <h1 id="hi">Hi, I&rsquo;m Ryan</h1>
+    <p class="intro">Data science leader in health tech, party-game builder, and dancer. Curious about how ideas, and the people who hold them, connect.</p>
+  </section>
 
-  <nav class="links" aria-label="Explore">
-    <a href="/blyg"><span class="name">Blyg</span><span class="note">Inherited Priors</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
-    <a href="/games/"><span class="name">Party Games</span><span class="note">MindMeld is live</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
-    <a href="/about/"><span class="name">About</span><span class="note">me, in brief</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
-    <a href="/resume/"><span class="name">Resume</span><span class="note">the serious stuff</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
-  </nav>
-</section>
+  <div class="mark">
+    <picture>
+      <source srcset="{{ '/assets/logo/mark-color-dark.svg' | relative_url }}" media="(prefers-color-scheme: dark)">
+      <img src="{{ '/assets/logo/mark-color.svg' | relative_url }}" alt="dancingmathguy mark: four touching wheel nodes on one line" width="204" height="48">
+    </picture>
+  </div>
+
+  <a class="cell card dusk" href="{{ '/blyg' | relative_url }}"><span class="name">Blyg</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+  <a class="cell card glow" href="{{ '/games/' | relative_url }}"><span class="name">Party games</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+  <a class="cell card plain" href="{{ '/about/' | relative_url }}"><span class="name">About</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+  <a class="cell card solid" href="{{ '/resume/' | relative_url }}"><span class="name">Resume</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+</div>
