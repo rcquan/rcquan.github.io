@@ -4,7 +4,8 @@ title: Resume
 permalink: /resume/
 ---
 
-<div class="resume-head">
+<div class="grid resume-grid">
+<div class="cell resume-head">
   <div>
     <h1>Ryan Quan</h1>
     <p class="lede">Collaborative and results-driven data scientist and healthcare analytics leader with over 10 years of experience in health tech. Proven track record in leveraging statistics to improve patient outcomes and develop meaningful value stories for customers. Passionate about utilizing data to align incentive structures within mis-calibrated systems towards improving long-term health and well-being.</p>
@@ -12,8 +13,7 @@ permalink: /resume/
   <a class="button" href="/assets/documents/Ryan_Quan_Resume_06-2025.pdf">Download PDF</a>
 </div>
 
-<div class="resume-grid">
-<div class="resume-main" markdown="1">
+<div class="cell resume-main" markdown="1">
 
 ## Experience
 
@@ -63,7 +63,7 @@ Oversaw joint R&D experimentation and marketing asset development programs. Desi
 </div>
 
 </div>
-<aside class="resume-side" markdown="1">
+<aside class="cell resume-side" markdown="1">
 
 ## Skills
 
