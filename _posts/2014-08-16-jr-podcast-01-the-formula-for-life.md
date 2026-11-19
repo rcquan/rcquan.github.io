@@ -2,7 +2,6 @@
 layout: post
 categories: blog
 tags: [podcast, slice-of-life]
-comments: true
 preview_pic: /assets/images/jr.png
 title: 'JR Podcast #01 - The Formula for Life'
 ---

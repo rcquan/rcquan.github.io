@@ -3,7 +3,6 @@ layout: post
 categories: blog
 tags: [knn, data science, image recovery, imputation]
 preview_pic: /assets/images/2014-09-26-denoising-a-png-with-knn-imputation.png
-comments: true
 title: Denoising a PNG Image with kNN Imputation
 ---
 

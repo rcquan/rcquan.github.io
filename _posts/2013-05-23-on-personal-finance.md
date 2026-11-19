@@ -3,7 +3,6 @@ layout: post
 categories: blog
 tags: [finance, life, philosophy, musings]
 preview_pic: 
-comments: true
 title: On Personal Finance
 ---
 

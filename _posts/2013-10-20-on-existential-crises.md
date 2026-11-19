@@ -2,7 +2,6 @@
 layout: post
 categories: blog
 tags: [quarter-life crisis, growth, people, musings, showerthoughts, philosophy]
-comments: true
 title: On Existential Crises
 ---
 

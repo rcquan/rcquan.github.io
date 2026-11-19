@@ -4,7 +4,6 @@ categories: blog
 tags: [data science, coding, R, sleep cycle, quantified self]
 title: Sleep Data Analysis with R
 preview_pic: /assets/images/2015-01-28-sleep-cycle-analysis-03.png
-comments: true
 ---
 
 I have been keeping track of my sleep for over two years using the [Sleep Cycle](http://www.sleepcycle.com/) app for the iPhone. I initially downloaded the app for its smart alarm feature, which promises to wake you up without feeling tired (every person's dream). The app allegedly achieves this feat by triggering the alarm when you are in light sleep, which is determined by the detection of your movements in bed. When you are finally able to wake up, you are treated to a nice summary of last night's slumber:

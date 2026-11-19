@@ -3,7 +3,6 @@ layout: post
 categories: blog
 tags: [policy, government, new york city, city council, meetings, ggplot2]
 preview_pic: /assets/images/2014-09-11-new-york-city-meetings-annual-trends.png
-comments: true
 title: Exploring New York City Council Meetings Data
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 categories: blog
 preview_pic: /assets/images/2014-06-16-turn-legislation-into-beautiful-soup-2.png
-comments: true
 title: Turn Legislation into BeautifulSoup
 ---
 

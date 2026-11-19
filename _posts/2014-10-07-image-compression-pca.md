@@ -3,7 +3,6 @@ layout: post
 categories: blog
 tags: [image compression, dimensionality reduction, PCA, eigenfaces]
 preview_pic: /assets/images/2014-10-07-image-compression-pca.png
-comments: true
 title: Image Compression with PCA
 ---
 

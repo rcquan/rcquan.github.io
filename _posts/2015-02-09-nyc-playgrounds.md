@@ -4,7 +4,6 @@ categories: blog
 tags: [gis, R, ggplot2, playgrounds, open data, built environment, equity]
 title: NYC Playgrounds by Neighborhood 
 preview_pic: /assets/images/2015-02-09-nyc-playgrounds-01.png
-comments: true
 ---
 
 If you've never found yourself wishing to be young again, New York City will certainly change that. With access to over 1200+ recreational play areas chock-full of fun and interactive playthings, life is good for an NYC kid. Heck, some playgrounds are even equipped with [spinning water wheels](http://www.brooklynbridgepark.org/park/pier-6), [climbing walls](http://www.hudsonriverpark.org/explore-the-park/activities/pier-25-play-area), and [giant building blocks](http://www.imaginationplayground.com/index.html). Jealous yet? Well, you should be.

@@ -39,7 +39,3 @@ layout: default
     <a class="nav-link" href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}">next &#8594;</a>
   {% endif %}
 </div>
-
-{% if page.comments %}
-  {% include comments.html %}
-{% endif %}

@@ -3,7 +3,6 @@ layout: post
 categories: blog
 tags: [medical misconduct, rCharts, ggplot2]
 preview_pic: /assets/images/2014-07-09-medical-misconduct-ggplot2.png
-comments: true
 title: Introduction to Medical Misconduct
 ---
 
